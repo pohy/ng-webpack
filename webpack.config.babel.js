@@ -29,8 +29,8 @@ module.exports = {
       test: /\.js$/,
       loader: 'ng-annotate'
     }, {
-      test: /\.js$/,
-      loader: 'ng-annotate'
+      test: /\.less$/,
+      loader: 'style!css!less'
     }]
   },
   plugins: [
